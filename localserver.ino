@@ -1,14 +1,10 @@
-/*********
-  Rui Santos
-  Complete project details at http://randomnerdtutorials.com  
-*********/
 
 // Load Wi-Fi library
 #include <ESP8266WiFi.h>
 
 // Replace with your network credentials
-const char* ssid     = "ASUS";
-const char* password = "aaaaqqqq";
+const char* ssid     = "Yourssid";
+const char* password = "yourpassword";
 
 // Set web server port number to 80
 WiFiServer server(80);
